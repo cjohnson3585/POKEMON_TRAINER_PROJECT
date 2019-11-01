@@ -1,0 +1,51 @@
+# 10/29/19 - README for POKEMON_TRAINER.py
+#
+# First imstall neccessary libraries if needed: >pip install -r requirements.txt
+#
+# To run the script just type 'python POKEMON_TRAINER.py'
+#
+# The script reads in the provided 'pokemon_trainer_application_data.csv' file,
+# does some cleaning of the data (replacing nulls with 'NaN'), and loops through the
+# file for each trainer-region pair (64 total).
+#
+# Results are written to an output file ('./most_competitve.csv')
+#
+# script continues be reading in the output file, sorting, and printing to the screen
+# some stats on top hiring rate per trainer-region group. The results are copied below: 
+#
+# There are two keys to switch things on and off: 
+# line 63 -variable: 'key' -> turns the function routine off provided it has alreadu been ran before and there is an output file to read. 
+#       on -> key=5, off -> key='anything else'
+# line 101 -varable: 'key2'-> turns the plotting routine on and off to plot hiredrate vs. GPA. 
+#       on -> key2=3, off -> key2='anything else'
+#
+Looking at the hired rate % (total hired / total applied) with all 'NAN's weeded out, we see that the lowest hired rate is 0.42% described below:
+   TrainerClass WorldRegion  Total (applicants)  Hired  NotHired  %HiredRate  CountGPA  AverageUndergradGPA
+28     Engineer       Unova                 240      1       239        0.42        28                 3.11
+60        Skier       Unova                 352      2       350        0.57        69                 3.11
+59        Skier      Sinnoh                 514      3       511        0.58       124                 3.15
+57        Skier       Johto                7804     47      7757        0.60      1750                 3.12
+27     Engineer      Sinnoh                1990     13      1977        0.65       225                 3.06
+
+If we are looking at the the hired rate % for those trainers that had applicants but did not hire any then we have a 0% hired rate for 155 applicants making Skier Alola the most competitive combination of trainer and region to get hired in to:
+    TrainerClass    WorldRegion  Total (applicants)  Hired  NotHired  %HiredRate  CountGPA  AverageUndergradGPA
+62         Skier          Alola                 155      0       155         0.0        25                 2.86
+29      Engineer          Kalos                 129      0       129         0.0        14                 3.12
+39         Nurse  Sevii Islands                  30      0        30         0.0         1                 2.70
+53     Scientist          Kalos                  14      0        14         0.0         7                 3.47
+21  Dragon Tamer          Kalos                   7      0         7         0.0         2                 3.55
+
+
+Naive Bayes Results:
+Accuracy of training data set:  0.9917491749174917
+Accuracy of test data set:  0.9868095630667766
+#
+#
+#
+#
+# I used a Naive Bayes approach looking at numerical data, primarily the 'HighSchoolGPA', 'UndergradGPA', 'TotalYearsOfExp', and 'hired' columns. With
+# the 'hired' column as my target. After weeding out the 'NaN' I was left with 4849 data points.
+#
+#
+# Things that I would consider to look at when hiring would be in experience both educational and work history. Although I have focused on the numerical data in this set
+# there is still a lot of categorical that can can be used with different algorithms. For instance, we could look at what pokemon a candidate has trained with before and see how that correlates to hired/not hired. Does a specific pokemon ensure that someone will be hired? Also, just visually looking at the plotted data we can make several inference. From the poiint of view of the applicant, I would like to have the HiredRate vs. UndergradGPA per trainer graph available. This tells me what I can expect my chances of being hired are based on my GPA. Also, this plot depicts the average spread of GPA per HiredRate for each trainer. I have not doen the analysis but you can see from the plot (HiredRateVSGPA.pdf) that the spread in GPA for Nurse is about 0.7 GPA points but the spread in HiredRate ~5%. The spreads for Pokemon Ranger are 0.6 in GPA and 45% with Pokemon Ranger having the largest applicant pool out of all. 

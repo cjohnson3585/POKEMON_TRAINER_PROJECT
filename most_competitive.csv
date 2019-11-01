@@ -1,0 +1,65 @@
+TrainerClass,WorldRegion,Total (applicants),Hired,NotHired,%HiredRate,CountGPA,AverageUndergradGPA
+Curmudgeon,Kanto,788,16,772,2.03,285,3.34
+Curmudgeon,Johto,0,0,0,0.00,0,0.00
+Curmudgeon,Hoenn,0,0,0,0.00,0,0.00
+Curmudgeon,Sinnoh,0,0,0,0.00,0,0.00
+Curmudgeon,Unova,0,0,0,0.00,0,0.00
+Curmudgeon,Kalos,0,0,0,0.00,0,0.00
+Curmudgeon,Alola,0,0,0,0.00,0,0.00
+Curmudgeon,Sevii Islands,0,0,0,0.00,0,0.00
+Doctor,Kanto,209,14,195,6.70,96,3.48
+Doctor,Johto,51,7,44,13.73,22,3.33
+Doctor,Hoenn,12,1,11,8.33,0,0.00
+Doctor,Sinnoh,0,0,0,0.00,0,0.00
+Doctor,Unova,0,0,0,0.00,0,0.00
+Doctor,Kalos,0,0,0,0.00,0,0.00
+Doctor,Alola,0,0,0,0.00,0,0.00
+Doctor,Sevii Islands,0,0,0,0.00,0,0.00
+Dragon Tamer,Kanto,1900,33,1867,1.74,568,3.26
+Dragon Tamer,Johto,201,6,195,2.99,54,3.24
+Dragon Tamer,Hoenn,184,2,182,1.09,57,3.27
+Dragon Tamer,Sinnoh,31,2,29,6.45,8,3.09
+Dragon Tamer,Unova,310,8,302,2.58,111,3.18
+Dragon Tamer,Kalos,7,0,7,0.00,2,3.55
+Dragon Tamer,Alola,738,9,729,1.22,161,3.15
+Dragon Tamer,Sevii Islands,2,0,2,0.00,2,3.51
+Engineer,Kanto,14580,161,14419,1.10,1953,3.03
+Engineer,Johto,6991,61,6930,0.87,1009,3.02
+Engineer,Hoenn,4118,54,4064,1.31,486,3.06
+Engineer,Sinnoh,1990,13,1977,0.65,225,3.06
+Engineer,Unova,240,1,239,0.42,28,3.11
+Engineer,Kalos,129,0,129,0.00,14,3.12
+Engineer,Alola,0,0,0,0.00,0,0.00
+Engineer,Sevii Islands,41,1,40,2.44,4,3.09
+Nurse,Kanto,5752,208,5544,3.62,3102,3.37
+Nurse,Johto,5915,135,5780,2.28,3075,3.32
+Nurse,Hoenn,2601,77,2524,2.96,1018,3.27
+Nurse,Sinnoh,652,15,637,2.30,221,3.22
+Nurse,Unova,1,1,0,100.00,0,0.00
+Nurse,Kalos,3,2,1,66.67,2,3.07
+Nurse,Alola,1,0,1,0.00,0,0.00
+Nurse,Sevii Islands,30,0,30,0.00,1,2.70
+Pokemon Ranger,Kanto,10272,262,10010,2.55,2352,3.24
+Pokemon Ranger,Johto,7499,150,7349,2.00,1708,3.21
+Pokemon Ranger,Hoenn,3669,123,3546,3.35,676,3.25
+Pokemon Ranger,Sinnoh,1304,27,1277,2.07,241,3.18
+Pokemon Ranger,Unova,4,2,2,50.00,2,2.87
+Pokemon Ranger,Kalos,19,6,13,31.58,1,3.34
+Pokemon Ranger,Alola,0,0,0,0.00,0,0.00
+Pokemon Ranger,Sevii Islands,30,2,28,6.67,3,3.45
+Scientist,Kanto,1276,34,1242,2.66,383,3.32
+Scientist,Johto,268,9,259,3.36,87,3.28
+Scientist,Hoenn,129,3,126,2.33,45,3.30
+Scientist,Sinnoh,24,1,23,4.17,5,3.30
+Scientist,Unova,3,0,3,0.00,2,3.20
+Scientist,Kalos,14,0,14,0.00,7,3.47
+Scientist,Alola,39,1,38,2.56,15,3.24
+Scientist,Sevii Islands,0,0,0,0.00,0,0.00
+Skier,Kanto,13862,146,13716,1.05,3036,3.15
+Skier,Johto,7804,47,7757,0.60,1750,3.12
+Skier,Hoenn,1545,12,1533,0.78,357,3.19
+Skier,Sinnoh,514,3,511,0.58,124,3.15
+Skier,Unova,352,2,350,0.57,69,3.11
+Skier,Kalos,62,1,61,1.61,16,3.35
+Skier,Alola,155,0,155,0.00,25,2.86
+Skier,Sevii Islands,0,0,0,0.00,0,0.00
